@@ -35,17 +35,17 @@ object TypeSafeEquals {
     // println(s"${1 === "1"}") // does not compile
 
     println("""Does 1 === 1 ?""")
-    println(s"${1 === 1}") // does not compile
+    println(s"${1 === 1}")
 
   }
 
   def lists() = {
     val stuff: List[Any] = List("1", 2, "3", '4', 5)
     println(s"""Does $stuff contain Int 2?""")
-    println(stuff.contains(2 === _))
+    println(stuff.contains(2 === _)) // false
 
     println(s"""Does it contain Int 3?""")
-    println(stuff.contains(3 === _))
+    println(stuff.contains(3 === _)) // also false!
   }
 
 }

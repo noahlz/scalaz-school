@@ -1,4 +1,4 @@
-## Just enough ScalaZ
+## Just enough scalaz
 
 There are many scalaz introductions, but this one is mine. I focus on practical use of scalaz, for a scala developer who does not have prior knowledge of Haskell or monads. It turns out that scalaz can be very useful even if you are not so familiar with those concepts!
 
